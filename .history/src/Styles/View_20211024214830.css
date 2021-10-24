@@ -1,0 +1,15 @@
+.col-wrap {
+  display: table; 
+  width: 100%; 
+}
+
+.col {
+  display: table-cell;
+  padding: 1rem
+}
+.col:nth-child(even){
+  background-color:orange;
+}
+.col:nth-child(odd){
+  background-color:yellow;
+}

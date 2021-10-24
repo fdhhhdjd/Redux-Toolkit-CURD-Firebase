@@ -1,0 +1,14 @@
+.inline {
+  display: inline-block;
+  margin: 1em;
+}
+.wrap {
+  display: table;
+  height:  100px;
+  width:   160px;
+  padding: 10px;
+  border:  thin solid darkgray;
+}
+.wrap p {
+  display:        table-cell;
+  vertical-align: middle;
