@@ -1,0 +1,11 @@
+import React from "react";
+
+const Icons = (toast) => {
+  return (
+    <div>
+      <i ref={toast.json}></i>
+    </div>
+  );
+};
+const Icons = React.forwardRef(Icons);
+export default Icons;
